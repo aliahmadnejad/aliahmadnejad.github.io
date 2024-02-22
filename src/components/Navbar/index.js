@@ -32,9 +32,9 @@ const Navbar = ({darkMode, setDarkMode}) => {
         </NavItems>
         <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank">Github Profile</GitHubButton>
-          <div style={{marginLeft:"6px"}}>
+          {/* <div style={{marginLeft:"6px"}}>
             <ThemeToggler darkMode={darkMode} setDarkMode={setDarkMode} />
-          </div>
+          </div> */}
         </ButtonContainer>
         {
           isOpen &&
@@ -55,7 +55,7 @@ const Navbar = ({darkMode, setDarkMode}) => {
               setIsOpen(!isOpen)
             }}>Education</MobileLink>
             <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GitHubButton>
-            <ThemeToggler darkMode={darkMode} setDarkMode={setDarkMode} />
+            {/* <ThemeToggler darkMode={darkMode} setDarkMode={setDarkMode} /> */}
           </MobileMenu>
         }
       </NavbarContainer>
