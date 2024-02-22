@@ -1,7 +1,7 @@
 {
   "name": "ali-ahmadnejad-portfolio",
   "version": "0.1.0",
-  "homepage": "https://aliahmadnejad.github.io",
+  "homepage": "http://aliahmadnejad.github.io",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
